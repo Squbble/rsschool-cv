@@ -20,3 +20,7 @@ advancements. Continued education has allowed me to stay ahead
 * Git, GitHub
 * VS Code
 * Adobe Photoshop / Figma
+====
+### Education:
+* West Kazakhstan Innovation and Technological University (Ecology)
+* University of West Bohemia (Computer Control of Machines and Processes)
