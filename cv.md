@@ -24,3 +24,9 @@ advancements. Continued education has allowed me to stay ahead
 ### Education:
 * West Kazakhstan Innovation and Technological University (Ecology)
 * University of West Bohemia (Computer Control of Machines and Processes)
+====
+### Code example:
+`function fibonacci(num) {
+  if (num <= 1) return 1;
+return fibonacci(num - 1) + fibonacci(num - 2);
+}`
