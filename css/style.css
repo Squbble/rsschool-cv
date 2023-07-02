@@ -164,3 +164,42 @@ body {
 li.navigation-item a {
 	text-decoration: none;
 }
+
+.main {
+	width: 848px;
+	margin-top: 30px;
+	margin-left: 30px;
+	background-color: #23262B;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+.main-title {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 900;
+	margin: auto;
+}
+
+.main-title::after {
+	content: '';
+	background-color: #304CFD;
+	border-radius: 0.5rem;
+	height: 5px;
+	position: absolute;
+	bottom: -1.125rem;
+	left: 0;
+	width: 3.125rem;
+	z-index: 1;
+}
+
+.about-me-info {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 40px;
+}
