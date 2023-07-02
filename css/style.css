@@ -228,3 +228,50 @@ li.navigation-item a {
 	font-size: 14px;
 	font-weight: 400;
 }
+
+.languages {
+	margin-top: 70px;
+}
+
+.languages-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.laguages-item {
+	flex-basis: 295px;
+	margin-top: 40px;
+	border: 2px solid #33363D;
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.languages-item-image {
+	border-radius: 5px;
+}
+
+.languages-item-heading {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+.languages-item-description {
+	font-family: 'Roboto', sans-serif;
+	color: #999AA2;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: auto;
+}
