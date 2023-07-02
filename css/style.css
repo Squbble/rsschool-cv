@@ -275,3 +275,39 @@ li.navigation-item a {
 	margin-top: 5px;
 	margin-bottom: auto;
 }
+
+.education {
+	margin-top: 70px;
+}
+
+.education-list {
+	margin-top: 40px;
+	position: relative;
+	list-style: none;
+	padding: 0;
+}
+
+.education-item {
+	padding-bottom: 1.5rem;
+	border-left: 1px solid #33363D;
+	position: relative;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+
+.education-item:last-child {
+	border: 0px;
+	padding-bottom: 0;
+}
+
+.education-item:before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	background: #3086FF;
+	border: 2px solid #33363D;
+	border-radius: 50%;
+	position: absolute;
+	left: -8px;
+	top: 0px;
+}
