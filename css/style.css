@@ -338,3 +338,33 @@ li.navigation-item a {
 	margin-top: 10px;
 	margin-bottom: auto;
 }
+
+.code-example {
+	margin-top: 70px;
+}
+
+pre {
+	margin-top: 40px;
+	border-radius: 20px;
+	padding: 30px;
+	background-color: #1D1E24;
+	background-image: url(../images/svg/code.svg);
+	background-repeat: no-repeat;
+	background-position: right 30px top 30px;
+	height: auto;
+	font-size: 16px;
+	font-weight: 600;
+	color: #a8a8a8;
+}
+
+.js-rose {
+	color: #C477DA;
+}
+
+.js-blue {
+	color: #61AFEF;
+}
+
+.js-orange {
+	color: #D19A66;
+}
