@@ -311,3 +311,30 @@ li.navigation-item a {
 	left: -8px;
 	top: 0px;
 }
+
+.university {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 5px;
+	margin-bottom: auto;
+}
+
+.study-years {
+	font-family: 'Roboto', sans-serif;
+	color: #999AA2;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+
+.study-specialization {
+	font-family: 'Roboto', sans-serif;
+	color: #999AA2;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: auto;
+}
