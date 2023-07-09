@@ -2,6 +2,10 @@ body {
 	background-color: #1D1E24;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .wrapper {
 	width: 1024px;
 	margin: auto;
@@ -121,7 +125,7 @@ body {
 .sidebar-navigation {
 	position: sticky;
 	width: 146px;
-	height: 627px;
+	height: 845px;
 	margin-top: 30px;
 	background-color: #23262B;
 	border-radius: 20px;
@@ -158,6 +162,7 @@ body {
 }
 
 .navigation-icon {
+	width: 60px;
 	margin-top: 15px;
 }
 
@@ -403,4 +408,18 @@ footer {
 	font-size: 14px;
 	font-weight: 400;
 	margin: auto;
+}
+
+.projects-link {
+	text-decoration: none;
+	flex-basis: 295px;
+	width: 290px;
+	margin-top: 40px;
+	border: 2px solid #33363D;
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
 }
